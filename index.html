@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dewi Hawa Mahardika</title>
+    <title>Portofolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -45,11 +45,12 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Welcome to My Portofolio</h1>
         <nav>
             <ul>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#About Me">About</a></li>
-                <li><a href="#Contact">Contact</a></li>
+                <li><a href="#Contact Me">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -57,9 +58,20 @@
         <h2>About</h2>
         <p>Hai, perkenalkan nama saya Dewi Hawa Mahardika dari kelas 12 TJKT 1. Saya adalah salah satu siswi di SMK Taruna Bhakti.</p>
     </section>
-    <section id="Contact">
+    <section id="Contact Me">
         <h2>Contact</h2>
         <p>E-mail : hawamahardikaa@gmail.com</p>
+                <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
     </section>
     <footer>
         <p>&copy; 2024 My Portofolio</p>
