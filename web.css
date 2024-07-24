@@ -17,7 +17,7 @@ body {
 /* Styling the header */
 header {
     background-color: #D3D3D3;
-    color: white;
+    color: light gray;
     padding: 20px 0;
     text-align: center;
     position: fixed;
@@ -32,7 +32,7 @@ header h1 {
 
 /* Styling the navigation bar */
 nav {
-    background-color: #333;
+    background-color: #D3D3D3;
     overflow: hidden;
 }
 
