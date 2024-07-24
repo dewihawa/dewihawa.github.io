@@ -23,3 +23,22 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #4682B4; /* Steel Blue */
 }
+
+header {
+    background-color: #D3D3D3; /* Abu Muda */
+    color: #000; /* Black */
+}
+
+footer {
+    background-color: #FF6347; /* Tomato Red */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+nav ul li a:hover {
+    background-color: #FFA500; /* Orange */
+}
