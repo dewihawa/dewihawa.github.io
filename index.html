@@ -3,49 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portofolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 56px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portofolio</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skill">Skill</a></li>
-            <li><a href="#contact">Contact Me</a></li>
-        </ul>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portofolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skill">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <section id="home">
-        <h2>Home</h2>
-        <p>Thank you for visiting my portfolio website. I am Dewi Hawa Mahardika, a student majoring in Computer Network Engineering and Telecommunications. If you have any questions or would like to collaborate, please get in touch. Enjoy your visit!</p>
-    </section>
+    <!-- Header -->
+    <header class="bg-primary text-white">
+        <div class="container text-center">
+            <h1>Welcome to Portofolio</h1>
+            <p class="lead">Thank you for visiting my portfolio website. I am Dewi Hawa Mahardika, a student majoring in Computer Network Engineering and Telecommunications. If you have any questions or would like to collaborate, please get in touch. Enjoy your visit!</p>
+        </div>
+    </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello, my name is Dewi Hawa Mahardika, a twelfth grade student at SMK Taruna Bhakti Depok majoring in TJKT (Computer and Telecommunications Network Engineering). Currently, I have studied various relevant subjects such as (Network Infrastructure, Network System Administration, Basic Computers and Networks, Basic Programming, Mini Internet Service Provider), which has provided me with a strong theoretical foundation as well as good analytical skills. I am also active in various school activities and projects that have helped hone my communication, teamwork, and time management skills.</p>
-    </section>
+    <!-- Page Content -->
+    <div class="container">
 
-    <section id="skill">
-        <h2>Skill</h2>
-        <ul>
-            <li>Responsive design</li>
-            <li>Easy navigation</li>
-            <li>Basic HTML and CSS</li>
-        </ul>
-    </section>
+        <!-- Features Section -->
+        <section id="features" class="my-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Skill</h2>
+                    <ul>
+                        <li>Responsive Design</li>
+                        <li>Easy Navigation</li>
+                        <li>Basic HTML and CSS</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="https://via.placeholder.com/500" alt="Features">
+                </div>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>If you have any questions or feedback, feel free to <a href="mailto:hawamahardikaa@gmail.com">contact me</a>.</p>
-    </section>
+        <!-- About Section -->
+        <section id="about" class="my-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="https://via.placeholder.com/500" alt="About Us">
+                </div>
+                <div class="col-lg-6">
+                    <h2>About Me</h2>
+                    <p>Hello, my name is Dewi Hawa Mahardika, a twelfth grade student at SMK Taruna Bhakti Depok majoring in TJKT (Computer and Telecommunications Network Engineering). Currently, I have studied various relevant subjects such as (Network Infrastructure, Network System Administration, Basic Computers and Networks, Basic Programming, Mini Internet Service Provider), which has provided me with a strong theoretical foundation as well as good analytical skills. I am also active in various school activities and projects that have helped hone my communication, teamwork, and time management skills.</p>
+                </div>
+            </div>
+        </section>
 
-    <footer>
-        <p>&copy; 2024 My Portofolio. All rights reserved.</p>
+        <!-- Contact Section -->
+        <section id="contact" class="my-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Contact Us</h2>
+                    <p>If you have any questions or feedback, feel free to reach out to us:</p>
+                    <ul>
+                        <li>Email: hawamahardikaa@gmail.com</li>
+                        <li>GitHub: <a href="https://dewiw.github.io">dewihawa</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Portofolio 2024</p>
+        </div>
     </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
