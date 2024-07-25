@@ -79,5 +79,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 For any inquiries or feedback, please contact:
-- Email: your.email@example.com
-- GitHub: [dewihawa](https://github.com/dewihawa)
+- Email: hawamahardikaa@gmail.com
+- GitHub: [dewihawa.github.io](https://dewihawa.github.io)
